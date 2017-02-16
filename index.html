@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Yunnan University</title>
+<link href="style/base.css" rel="stylesheet" type="text/css" />
+<link href="style/css-1.css" rel="stylesheet" type="text/css" />
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.4.1.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+<script type="text/javascript" src="js/focus.js"></script>
+<script>
+$(function(){
+	
+	$("#focus").adfocus({
+        drection: "filter",
+        numbox: ".numboxcont",
+        imgbox: ".imgbox",
+		text: ".txbox",
+        speed: 5000,
+        addClass: "pptOn",
+		imgboxWidth:730,
+		imgboxHeight:244,
+		imgLen:4,
+		pull:"",
+		usevent:"mouseover"
+    });
+})
+</script>
+</head>
+<body>
+<!--主体 开始-->
+<div class="main">
+	<!--头部 开始-->
+    <div class="header">
+    	<a href="index.html" class="logo" title="Yunnan University">Yunnan University</a>
+        <div class="contact">
+        	<a href="#">Contact</a><em>|</em><a href="#">中文</a>
+        </div>
+    </div>
+    <!--头部 结束-->
+    <!--导航 开始-->
+    <div class="nav">
+    	<div class="navLeft"></div>
+        <div class="navRight"></div>
+        <div class="search">
+        	<div class="searchbg">
+            	<input type="text" value="Search" id="searchTxt"/>
+            </div>
+            <input type="button" value="" class="searchSub"/>
+        </div>
+        <ul class="mainNav clearfix" id="mainNav">
+        	<li><a title="ABOUT YNU" href="#">ABOUT YNU</a>  
+            	<dl>
+                    <dd><a href="#" title="GENERAL INFORMATION" >GENERAL INFORMATION</a></dd>
+            		<dd><a href="#" title="MESSAGE FROM THE PRESIDENT" >MESSAGE FROM THE PRESIDENT</a></dd>
+            		<dd><a href="#" title="MESSAGE FROM THE CUC" >MESSAGE FROM THE CUC</a></dd>
+           			<dd><a href="#" title="HISTORY OF YNU" >HISTORY OF YNU</a></dd>
+            	    <dd><a href="#" title="FORMER PRESIDENTS" >FORMER PRESIDENTS</a></dd>
+            		<dd><a href="#" title="YNU IN PICTURES" >YNU IN PICTURES</a></dd>
+                </dl>
+            </li>  
+            <li><a title="NEWS & EVENTS" href="newsList.html">NEWS & EVENTS</a></li>
+            <li><a title="ADMISSION" href="#">ADMISSION</a>
+            	<dl>
+                    <dd><a href="#" title="UNDERGRADUATES" >UNDERGRADUATES</a></dd>
+            	    <dd><a href="#" title="GRADUATES" >GRADUATES</a></dd>
+            		<dd><a href="#" title="INTERNATIONAL STUDENTS" >INTERNATIONAL STUDENTS</a></dd>
+                </dl>
+            </li>
+            <li><a title="ACADEMICS & RESREARCH" href="#">RESREARCH</a>
+            	<dl>
+    	         	<dd><a href="#" title="NATURAL SCIENCES" >NATURAL SCIENCES</a></dd>
+           			<dd><a href="#" title="HUMANITIES AND SOCIAL SCIENCES" >HUMANITIES AND SOCIAL SCIENCES</a></dd>
+                    <dd><a href="#" title="LABS & CENTERS" >LABS & CENTERS</a></dd>
+                    <dd><a href="#" title="JOURNALS" >JOURNALS</a></dd>
+                </dl> 
+            </li>        
+            <li><a title="FACULITIES" href="#">FACULITIES</a>
+            	<dl>
+                	<dd><a href="#" title="SCHOOLS & DEPARTMENTS" >SCHOOLS & DEPARTMENTS</a></dd>
+                    <dd><a href="#" title="RESEARCH INSTITUTES" >RESEARCH INSTITUTES</a></dd>
+        	        <dd><a href="#" title="ADMINISTRATIVE DEPARTMENTS" >ADMINISTRATIVE DEPARTMENTS</a></dd>
+                    <dd><a href="#" title="DRUS" >DRUS</a></dd>
+                </dl>
+            </li>
+            <li><a title="EMPLOYMENT" href="#">EMPLOYMENT</a>
+           		 <dl>
+   			        <dd><a href="#" title="TEACHING POSIITIONS" >TEACHING POSIITIONS</a></dd>
+                    <dd><a href="#" title="EXCHANGE SCHOLARS" >EXCHANGE SCHOLARS</a></dd>
+                    <dd><a href="#" title="OTHERS" >OTHERS</a></dd>
+                </dl>
+            </li>      
+            <li><a title="CAMPUS LIFE" href="#">CAMPUS LIFE</a>
+            	<dl>
+   		        	<dd><a href="#" title="STUDENT ASSOCIATIONS" >STUDENT ASSOCIATIONS</a></dd>
+            		<dd><a href="#" title="CAMPUS TOUR" >CAMPUS TOUR</a></dd>
+        			<dd><a href="#" title="CAMPUS MAP" >CAMPUS MAP</a></dd>
+            		<dd><a href="#" title="SERVICES" >SERVICES</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <!--导航 结束-->
+    <!--banner 开始-->
+    <div class="banner mt10">
+    	<div class="focus" id="focus"> <!--焦点图-->
+			<div class="imgwarpper">
+				<ul class="imgbox"> <!--图片-->
+				  <li style="z-index:1;"><a href="#"><img src="images/banner1.jpg" alt="" /></a></li>
+				  <li><a href="#"><img src="images/banner2.jpg" alt="" /></a></li>
+				  <li><a href="#"><img src="images/banner3.jpg" alt="" /></a></li>
+				  <li><a href="#"><img src="images/banner4.jpg" alt="" /></a></li>
+				</ul><!--图片end-->
+			</div>
+			<div class="numbox"><!--小图-->
+				<ul class="numboxcont">
+					<li class="pptOn"><a href="#"><img src="images/banner1.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="images/banner2.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="images/banner3.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="images/banner4.jpg" alt="" /></a></li>
+				</ul>
+			</div><!--小图end-->
+			</div><!--焦点图-->		
+    </div>
+    <!--banner 结束-->   
+    
+    <!--资讯 开始-->
+    <div class="contain clearfix mt5">
+    	<!--新闻资讯 开始-->
+    	<dl class="left">
+        	<dt><a href="#" class="more">more...</a><b></b><h1><a href="#">NEWS & EVENTS</a></h1></dt>
+              <dd class="mt10">
+                <a href="#" class="pic"><img src="images/pic.jpg" width="190" height="125" alt="" /></a>
+                <div class="cont">
+                  <h2 class="title"><a href="#">Strategic Cooperation Agreement Signed between YNU and China Eastern Airlines</a></h2>
+                  <div class="detail">
+                     <p>On september 25 a signing ceremony was held by YNU and China Eastern Yunnan company.Our school pricipal HeTianchun,vice principal LinWenxun,China Eastern airlines yunnan company general manager ShiFuKANG <a href="#">...</a></p>
+                  </div>
+                </div>            
+                <ul class="mt10 clearfix">
+                  <li><h2 class="title"><a href="#">Professor FengHuiling Give a Academic Report about Archival Science</a></h2></li>
+                  <li><h2 class="title"><a href="#">The third Yunnan university students structure design competition held in our school</a></h2></li>
+                </ul>
+            </dd>
+        </dl>
+        
+        	<!--通知公告 开始-->
+        <dl class="middle">
+            <dt><a href="#" class="more">more...</a><b></b><h1><a href="#">BULLETIN</a></h1></dt>
+            <dd>
+                <div class="up"></div>
+            		<div id="demo">
+                         <div id="demo1">
+                             <p><a href="#">2012 Undergrate Freshmen Orientation Held</a></p>
+                             <p><a href="#">Job Recruiting from School of Economics at Yunnan University</a></p>
+                             <p><a href="#">The List of Campus Culture Activities in September</a></p>
+                             <p><a href="#">The Development and Trend of Archival Science</a></p>
+                             <p><a href="#">Main Activities for YNU 90 Anniversary</a></p>    
+                        </div>
+                    	<div id="demo2"></div>
+                    </div>
+                <div class="down"></div>
+            </dd>
+        </dl>
+            <!--通知公告 结束-->
+        	<!--其他链接 开始-->
+        <div class="right mt5">        
+	        <dl class="rightup">
+	        	<dt><h1>RESOURCES</h1></dt>
+	            <dd>
+	            	<ul class="clearfix">
+	                	<li><a href="#">Campus Map</a></li>
+	                    <li><a href="#">Campus Tour</a></li>
+	                    <li><a href="#">Services</a></li>
+                        <li><a href="#">Pather Universities</a></li>
+	                </ul>
+	            </dd>
+	        </dl>
+            <!--其他链接结束-->
+            <!--专题 开始-->        
+	        <div class="rightdown mt10">      
+            	<a href="#" title="SPECIAL REPORT"><img src="images/topic.jpg" alt="" /></a>      
+	        </div>
+            <!--专题 结束-->
+       </div>
+           
+    </div>
+    <!--资讯 结束-->
+    <!--尾部 开始-->
+    <div class="footer mt5">
+        <div class="add">
+        	Copyright © 2012 YunNan University Address:2 Cuihubei Lu,KunMing,China,650091
+        </div>
+    </div>
+    <!--尾部 结束-->
+</div>
+<!--主体 结束-->
+</body>
+</html>

@@ -1,0 +1,74 @@
+﻿/* CSS Document */
+/*  
+	*@Description: 云南大学英文主页
+	*@Author:wp.huang
+	*@Update:2012-11-06
+*/
+body{background:url(images/body_bg.jpg) left top repeat-x;}
+.main{width:980px;margin:0 auto;}
+.header{position:relative;height:118px;background:url(images/header_bg.jpg) left top no-repeat;}
+.header .logo{position:absolute;left:0;top:0;display:inline-block;width:230px;height:118px;text-indent:-9999px;}
+.header .contact{position:absolute;right:0;top:85px;color:#fff;}
+.header .contact a{color:#fff;}
+.header .contact em{display:inline; margin:0 3px;font-style:normal;}
+/*导航栏*/
+.nav{position:relative;height:35px;background:url(images/bg_repeat.gif) repeat-x;z-index:1000;}
+.nav .navLeft{position:absolute;left:0;top:0;width:8px;height:35px;overflow:hidden;background:url(images/icon.gif) 0 0 no-repeat;}
+.nav .navRight{position:absolute;right:0;top:0;width:8px;height:35px;overflow:hidden;background:url(images/icon.gif) -8px 0 no-repeat;}
+.nav .search{position:absolute;right:10px;top:7px;width:185px;height:21px;}
+.nav .search .searchbg{float:left;width:156px;height:21px;background:url(images/input_bg.gif) 0 0 no-repeat;}
+.nav .search .searchbg input{width:150px;padding:0 3px;height:21px;line-height:18px;line-height:21px\0;font-size:12px;border:0 none;background:none;color:#c5c5c5;}
+.nav .search .searchSub{float:left;width:15px;height:16px;display:inline; margin-left:5px;margin-top:3px;border:0 none;background:url(images/icon.gif) 1px -38px no-repeat;cursor:pointer;overflow:hidden;}
+.mainNav{margin-left:5px;}
+.mainNav li{position:relative;float:left;padding:0 6px;height:35px;line-height:35px;height:28px\0;padding-top:7px\0;text-align:center;background:url(images/bg_repeat.gif) right -35px no-repeat;z-index:99999;}
+.mainNav li a,.mainNav li a:visited{margin-top:-2px;margin-right:2px;font:14px "optima";*font-size:12px;padding:0 3px;color:#fff;display:inline-block;height:26px;line-height:26px;_margin-top:4px;display:inline-block;}
+.mainNav li a:hover,.mainNav li.active a{color:#fff;text-decoration:none;background:#01274d;}
+.mainNav li dl{position:absolute;display:none;left:0;top:35px;padding:10px;background:#01274d;filter:alpha(opacity=80);opacity:0.8;}
+.mainNav li dl dd{width:240px;height:25px;line-height:25px;text-align:left;background:url(images/dot_bg.gif) left bottom repeat-x;overflow:hidden;white-space:nowrap;}
+.mainNav li dl dd a{font-size:12px;}
+.mainNav li.active dl dd a{font-size:12px;background:none;color:#fff;}
+.mainNav li dl dd a:hover{font-size:12px;background:none;color:#FFFF00;}
+
+.mainNav li.active dl{display:block;}
+/*banner*/
+.banner{width:980px;height:260px;}
+.focus{position:relative;width:980px; height:260px; margin:0 auto;overflow:hidden;}
+.focus .imgbox{position:relative;}
+.focus img ,.focus .imgbox li{position:absolute;height:260px;width:980px;overflow:hidden;z-index:0;}
+.focus .imgwarpper{height:260px;width:980px;}
+.focus .imgbox li{left:0;top:0;}
+.focus .numbox{position:absolute; height:50px;top:180px; width:980px;z-index:10;}
+.focus .numbox ul{position:absolute;right:60px;}
+.focus .numbox li{float:left; width:90px; height:50px; margin-left:10px;}
+.focus .numbox li.pptOn{border:none;box-shadow:0 0 10px #EEB422;}
+.focus .numbox li.pptOn img{}
+.focus .numbox li img{width:90px; height:50px; display:block;}
+/*资讯*/
+.contain{width:980px;height:260px;}
+.contain .left{float:left;display:inline;width:560px;margin-right:10px;overflow:hidden;_zoom:1;}
+.contain .middle{float:left;display:inline;width:200px;margin-right:10px;overflow:hidden;_zoom:1;}
+.contain .right{float:left;width:200px;height:260px;}
+.contain .right .rightup{float:left;width:200px;height:185px;background:#eeeeee;overflow:hidden;_zoom:1;}
+.contain .right .rightdown{float:right;width:200px;height:50px;overflow:hidden;_zoom:1;}
+.contain .left dt{height:32px;line-height:32px;background:url(images/title_bg.gif) left bottom repeat-x;}
+.contain dl dt h1{font:bold 16px/32px "optima"; color:#002e5f;overflow:hidden;zoom:1;}
+.contain dl dt b{display:inline-block;float:left;width:16px;height:16px;margin-top:8px;margin-right:5px;background:url(images/icon.gif) 0 -55px no-repeat;overflow:hidden;zoom:1;}
+.contain dl dt .more{float:right;display:inline; margin-right:12px;margin-top:2px;font-size:13px;color:#002e5f;}
+.contain .left dd .pic{float:left;display:inline;width:190px;height:125px;border:2px solid #ccc;margin-right:10px;_margin-right:5px;margin-top:8px;}
+.contain dl dd h2{font:bold 14px/28px "Arial"; color:#002e5f;overflow:hidden;zoom:1;}
+.contain dl dd h2.title a{font:bold 14px;}
+.contain dl dd p{font:normal 12px;line-height:22px;} 
+.contain .left dd ul li{width:550px;padding-left:10px;height:25px;line-height:25px;background:url(images/bg_repeat.gif) 0 -72px no-repeat;overflow:hidden;zoom:1;}
+.contain .left dd ul li a{display:inline-block;width:540px;overflow:hidden;}
+.contain .middle dt{height:32px;line-height:32px;background:url(images/title_bg.gif) left bottom repeat-x;}
+.contain dl dd .up,.contain dl dd .down{width:200px;height:10px;background:#f4f4f4;text-align:center;}
+.contain .middle dd p{padding-left:10px;padding-top:2px;font:normal 12px;line-height:20px;background: url(images/list_icon.png) no-repeat;overflow:hidden;zoom:1;}
+.contain .right .rightup dt h1{padding-left:10px;font:bold 16px/32px "Arial"; color:#002e5f;overflow:hidden;zoom:1;}
+.contain .right .rightup dd ul li{width:190px;padding-left:20px;height:25px;line-height:25px;}
+.contain .right .rightup dd ul li a{display:inline-block;width:180px;overflow:hidden;zoom:1;}
+.contain .right .rightdown{display:inline;width:196px;height:46px;overflow:hidden;margin-top:10px;border:2px solid #ccc;}
+#demo{height:185px;overflow:hidden;zoom:1;}
+
+.footer{padding:10px 0;border-top:3px solid #022d6d;text-align:center;color:#666;}
+.footer a{color:#666;}
+.footer img{vertical-align:middle;}
